@@ -32,7 +32,7 @@ Trabalho principalmente com **Python** e **C/C++** — o que significa que sei t
 | Projeto | Descrição | Stack |
 | --- | --- | --- |
 | [vidya-sales-api](https://github.com/rodrigo-americo/vidya-sales-api) | API REST de vendas com stack async, dois bancos e 100% de cobertura de testes. | `FastAPI` `PostgreSQL` `MongoDB` `Docker` |
-| [42_miniRT](https://github.com/Talen400/42_miniRT) | Ray tracer do zero com iluminação Phong, reflexão, bump mapping e multi-threading. | `C` `pthreads` |
+| [42_miniRT](https://github.com/rodrigo-americo/42_miniRT) | Ray tracer do zero com iluminação Phong, reflexão, bump mapping e multi-threading. | `C` `pthreads` |
 | [Minishell](https://github.com/rodrigo-americo/Minishell) | Implementação de um shell UNIX do zero, lidando com processos e sinalizações. | `C` |
 
 ---
