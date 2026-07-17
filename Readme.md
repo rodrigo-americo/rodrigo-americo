@@ -32,9 +32,10 @@ Trabalho principalmente com **Python** e **C/C++** — o que significa que sei t
 | Projeto | Descrição | Stack |
 | --- | --- | --- |
 | [vidya-sales-api](https://github.com/rodrigo-americo/vidya-sales-api) | API REST de vendas com stack async, dois bancos e 100% de cobertura de testes. | `FastAPI` `PostgreSQL` `MongoDB` `Docker` |
-| [42_miniRT](https://github.com/rodrigo-americo/42_miniRT) | Ray tracer do zero com iluminação Phong, reflexão, bump mapping e multi-threading. | `C` `pthreads` |
+| [webserv](https://github.com/rodrigo-americo/webserv) | Servidor HTTP construído do zero em C++: parsing de configuração, arquitetura orientada a eventos e design de sistema escalável. | `C++` |
 | [Minishell](https://github.com/rodrigo-americo/Minishell) | Implementação de um shell UNIX do zero, lidando com processos e sinalizações. | `C` |
 | [push_swap](https://github.com/rodrigo-americo/push_swap) | Algoritmo de ordenação com duas pilhas. Turkish Sort + Radix Sort com checker bônus. | `C` |
+| [42_miniRT](https://github.com/rodrigo-americo/42_miniRT) | Ray tracer do zero com iluminação Phong, reflexão, bump mapping e multi-threading. | `C` `pthreads` |
 | [EVO8](https://www.evo8.com.br) | Sistema backend com autenticação JWT, multi-tenancy via CTE recursivo e IA com fallback. Em produção na AWS. | `Django` `PostgreSQL` `AWS` |
 ---
 
