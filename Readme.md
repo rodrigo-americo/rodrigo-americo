@@ -15,7 +15,10 @@ Trabalho principalmente com **Python** e **C/C++** — o que significa que sei t
 `FastAPI` `Django` `Django REST Framework` `Docker` `Git` `Linux`
 
 **Banco de Dados**
-`PostgreSQL` `MongoDB` `MySQL` `SQLite`
+`PostgreSQL` `MongoDB` `MySQL` `SQLite` `pgvector`
+
+**IA Aplicada / LLM**
+`LangChain` `LangGraph` `OpenAI API` `Ollama` `RAG` `Embeddings`
 
 ---
 
@@ -23,6 +26,7 @@ Trabalho principalmente com **Python** e **C/C++** — o que significa que sei t
 
 * Aprofundando em **arquitetura de APIs REST** e boas práticas em produção.
 * Trabalhando com **stack async** (FastAPI + SQLAlchemy async + Motor) e bancos múltiplos.
+* Integrando **LLMs em sistemas de produção** — de fallback resiliente (OpenAI → Ollama local) a pipelines de RAG com avaliação quantitativa própria.
 * Contribuindo para projetos que exigem alta performance e estabilidade.
 
 ---
@@ -31,6 +35,7 @@ Trabalho principalmente com **Python** e **C/C++** — o que significa que sei t
 
 | Projeto | Descrição | Stack |
 | --- | --- | --- |
+| [docs-rag-api](https://github.com/rodrigo-americo/docs-rag-api) | API RAG com citação de fonte: grafo com retry de reescrita de query (LangGraph) e avaliação quantitativa própria (Recall@5 100%, Faithfulness 1,00). | `FastAPI` `LangChain` `LangGraph` `PostgreSQL/pgvector` |
 | [vidya-sales-api](https://github.com/rodrigo-americo/vidya-sales-api) | API REST de vendas com stack async, dois bancos e 100% de cobertura de testes. | `FastAPI` `PostgreSQL` `MongoDB` `Docker` |
 | [42_miniRT](https://github.com/rodrigo-americo/42_miniRT) | Ray tracer do zero com iluminação Phong, reflexão, bump mapping e multi-threading. | `C` `pthreads` |
 | [Minishell](https://github.com/rodrigo-americo/Minishell) | Implementação de um shell UNIX do zero, lidando com processos e sinalizações. | `C` |
@@ -41,7 +46,7 @@ Trabalho principalmente com **Python** e **C/C++** — o que significa que sei t
 ## 📫 Contato
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rodrigo-americo4298/)
-[![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:rodrigo_7_4_7@hotmail.com.br)
+[![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:rgregori.americo@gmail.com)
 
 ---
 > *"Código que funciona em dev e quebra em prod não é código — é uma promessa não cumprida."*
